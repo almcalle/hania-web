@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Polish Skype lessons
-image: /img/cover-photo.png
+image: /img/cover-2.png
 heading: We offer Polish language lessons via Skype
 subheading: 'Learn Polish whenever you want, as often and intensively as you like'
 mainpitch:
