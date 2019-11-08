@@ -1,12 +1,13 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #FD461E
-$kaldi-red: #D64000
-$kaldi-red-invert: #fff
+$main-color: #F00
+$main-color-invert: #909
+$button-color: #F00
+$featured-blog-color: #FFA
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
+$primary: $main-color
+$primary-invert: $main-color-invert
 $body-color: #333
 $black: #2b2523
 
@@ -51,6 +52,14 @@ $black: #2b2523
     justify-content: center
     align-items: center
 
+.full-width-image-text
+    text-align: center
+    box-shadow: rgba(255, 255, 255, 0.8) 0.5rem 0px 0px, rgba(255, 255, 255, 0.8) -0.5rem 0px 0px
+    background-color: rgba(255, 255, 255, 0.8)
+    color: black
+    line-height: 1
+    padding: 0.25em
+
 .btn
     display: inline-block
     padding: 12px 16px 10px
@@ -61,10 +70,10 @@ $black: #2b2523
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #CC3700
+    color: $button-color
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #CC3700
-    box-shadow: inset 0 0 0 2px #f40
+    -webkit-box-shadow: inset 0 0 0 2px $button-color
+    box-shadow: inset 0 0 0 2px $button-color
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
@@ -88,9 +97,9 @@ footer.footer
 $menu-item-color: $white-ter
 $menu-item-hover-color: $black !important
 $menu-item-hover-background-color: $black
-$menu-item-active-color: $kaldi-red-invert
-$menu-item-active-background-color:	$kaldi-red-invert
-$menu-list-border-left: 1px solid $kaldi-red-invert
+$menu-item-active-color: $main-color-invert
+$menu-item-active-background-color:	$main-color-invert
+$menu-list-border-left: 1px solid $main-color-invert
 $menu-label-color: $white-ter
 
 
@@ -114,7 +123,7 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #d6400033;
+  background-color: $featured-blog-color;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
