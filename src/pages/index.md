@@ -1,21 +1,19 @@
 ---
 templateKey: index-page
-title: Polish Skype lessons
-image: /img/cover-2.png
-heading: We offer Polish language lessons via Skype
-subheading: 'Learn Polish whenever you want, as often and intensively as you like'
+title: Mówisz po polsku?
+image: /img/cover.png
+heading: Clases por Skype
+subheading: Clases de polaco para hispanohablantes
 mainpitch:
-  title: Why Kaldi
-  description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+  title: ¿Quieres aprender polaco?
+  description: >-
+    ¡Pronto verás que no es tan difícil! Conmigo puedes aprender polaco de forma
+    rápida y divertida, gracias a la perspectiva de enseñanza adaptada
+    especialmente para los nativos de español.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  No importa dónde estés, puedes asistir a clases en cualquier momento y en
+  cualquier lugar. Los horarios de clases son flexibles y dependen solo de ti.
+  Tú decides cuándo y con qué frecuencia quieres estudiar.
 intro:
   blurbs:
     - image: /img/coffee.png
