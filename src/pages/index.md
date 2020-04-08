@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Mówisz po polsku?
-image: /img/mówisz-po-polsku_.png
+image: /img/cover-5.png
 heading: Clases por Skype
 subheading: Clases de polaco para hispanohablantes
 mainpitch:
